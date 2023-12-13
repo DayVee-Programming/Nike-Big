@@ -30,14 +30,15 @@
   width: 100%;
   position: relative;
   cursor: pointer;
-}
-
-.style__cards-card-img {
-  display: flex;
+  border: 1px solid transparent;
 }
 
 .style__cards-card:hover {
   border: 1px solid #a0a0a0;
+}
+
+.style__cards-card-img {
+  display: flex;
 }
 
 .style__cards-card-title {
