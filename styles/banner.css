@@ -1,0 +1,26 @@
+.banner {
+  background: url(../images/banner2.png) center/cover no-repeat;
+  height: 557px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.banner__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  background: rgba(186, 186, 186, 0.5);
+  backdrop-filter: blur(7.5px);
+  width: 400px;
+  height: 154px;
+  position: absolute;
+  left: 50px;
+  top: 0;
+}
+
+.banner__title {
+  color: #fff;
+  font-size: 40px;
+}
