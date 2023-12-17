@@ -1,0 +1,79 @@
+.cards {
+  padding-bottom: 40px;
+}
+
+.cards__wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 32px;
+}
+
+.cards-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 330px;
+  width: 100%;
+  border: 1px solid transparent;
+  background: #fff;
+  cursor: pointer;
+}
+
+.cards-card:hover {
+  border: 1px solid #a0a0a0;
+}
+
+.cards-card-img {
+  width: 100%;
+}
+
+.cards-card-desc {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 10px;
+}
+
+.cards-card-desc-title {
+  color: #000;
+  font-size: 22px;
+  line-height: 18px;
+}
+
+.cards-card-desc-text {
+  color: #6a6a6a;
+  font-family: "Roboto-Regular", sans-serif;
+}
+
+.cards-card-desc-buy {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.cards-card-desc-buy-link {
+  padding: 12px;
+  color: #050505;
+  font-size: 22px;
+  border-radius: 3px;
+  background: #dfc900;
+  font-family: "Roboto-Bold", sans-serif;
+  transition: 0.3s;
+  max-width: 255px;
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cards-card:hover .cards-card-desc-buy-link {
+  background: #050505;
+  color: #ffe600;
+}
+
+.cards-card-desc-buy-price {
+  color: #000;
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}

@@ -39,6 +39,8 @@
 
 .style__cards-card-img {
   display: flex;
+  width: 100%;
+  height: 100%;
 }
 
 .style__cards-card-title {
