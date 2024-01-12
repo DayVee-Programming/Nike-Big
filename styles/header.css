@@ -10,6 +10,7 @@
 .header__content-wrap {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
   align-items: center;
 }
 
@@ -17,6 +18,8 @@
   display: flex;
   gap: 30px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .header__content-menu-item-link {
@@ -44,6 +47,7 @@
   gap: 16px;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .header__banner-title {
@@ -61,4 +65,16 @@
   color: #fff;
   font-size: 18px;
   font-family: "Roboto-Bold", sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+  .header__content-wrap {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__banner-title {
+    font-size: 40px;
+  }
 }

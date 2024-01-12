@@ -44,6 +44,7 @@
 .products__content__wrap {
   display: flex;
   justify-content: space-between;
+  gap: 40px 20px;
   align-items: center;
 }
 
@@ -112,4 +113,19 @@
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products__content-imgs-img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1285px) {
+  .products__content__wrap {
+    flex-direction: column;
+  }
+
+  .products__content {
+    padding: 20px 0;
+  }
 }

@@ -23,6 +23,8 @@
   display: flex;
   gap: 30px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .style__cards-card {
@@ -44,6 +46,7 @@
 }
 
 .style__cards-card-title {
+  width: 90%;
   color: #fff;
   font-size: 24px;
   line-height: 24px;
@@ -51,4 +54,5 @@
   position: absolute;
   bottom: 15px;
   left: 15px;
+  text-align: center;
 }
