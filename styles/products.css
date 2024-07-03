@@ -116,8 +116,19 @@
   justify-content: center;
 }
 
-.products__content-imgs-img {
-  max-width: 100%;
+.products__content-imgs-img:first-child {
+  width: 705px;
+  height: 339px;
+}
+
+.products__content-imgs-img:nth-child(2) {
+  width: 345px;
+  height: 160px;
+}
+
+.products__content-imgs-img:last-child {
+  width: 345px;
+  height: 160px;
 }
 
 @media screen and (max-width: 1285px) {

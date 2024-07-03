@@ -40,7 +40,7 @@
 .news__cards {
   display: flex;
   gap: 30px;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -60,10 +60,6 @@
 
 .news__cards-card:hover {
   border: 1px solid #a0a0a0;
-}
-
-.news__cards-card-img {
-  width: 100%;
 }
 
 .news__cards-card-title {
