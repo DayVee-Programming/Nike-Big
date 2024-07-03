@@ -117,18 +117,18 @@
 }
 
 .products__content-imgs-img:first-child {
-  width: 705px;
-  height: 339px;
+  max-width: 705px;
+  max-height: 339px;
 }
 
 .products__content-imgs-img:nth-child(2) {
-  width: 345px;
-  height: 160px;
+  max-width: 345px;
+  max-height: 160px;
 }
 
 .products__content-imgs-img:last-child {
-  width: 345px;
-  height: 160px;
+  max-width: 345px;
+  max-height: 160px;
 }
 
 @media screen and (max-width: 1285px) {
