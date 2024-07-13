@@ -28,8 +28,7 @@
 }
 
 .style__cards-card {
-  max-width: 350px;
-  width: 100%;
+  width: min(100%, 350px);
   position: relative;
   cursor: pointer;
   border: 1px solid transparent;

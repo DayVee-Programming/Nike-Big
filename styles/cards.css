@@ -14,8 +14,7 @@
 .cards-card {
   display: flex;
   flex-direction: column;
-  max-width: 330px;
-  width: 100%;
+  width: min(100%, 330px);
   border: 1px solid transparent;
   background: #fff;
   cursor: pointer;
@@ -57,8 +56,7 @@
   background: #dfc900;
   font-family: "Roboto-Bold", sans-serif;
   transition: 0.3s;
-  max-width: 255px;
-  width: 100%;
+  width: min(100%, 255px);
   text-transform: uppercase;
   cursor: pointer;
   text-align: center;

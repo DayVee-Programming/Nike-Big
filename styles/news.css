@@ -46,8 +46,7 @@
 }
 
 .news__cards-card {
-  max-width: 350px;
-  width: 100%;
+  width: min(100%, 350px);
   padding: 14px;
   display: flex;
   flex-direction: column;

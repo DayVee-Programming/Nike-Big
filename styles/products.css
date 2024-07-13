@@ -7,8 +7,7 @@
 }
 
 .products__label-wrap {
-  max-width: 190px;
-  width: 100%;
+  width: min(100%, 190px);
   display: flex;
   gap: 6px;
   align-items: center;
@@ -49,8 +48,7 @@
 }
 
 .products__content-desc {
-  max-width: 540px;
-  width: 100%;
+  width: min(100%, 540px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -95,8 +93,7 @@
   background: #dfc900;
   font-family: "Roboto-Bold", sans-serif;
   transition: 0.3s;
-  max-width: 255px;
-  width: 100%;
+  width: min(100%, 255px);
   text-transform: uppercase;
   cursor: pointer;
   text-align: center;
@@ -108,8 +105,7 @@
 }
 
 .products__content-imgs {
-  max-width: 705px;
-  width: 100%;
+  width: min(100%, 705px);
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
